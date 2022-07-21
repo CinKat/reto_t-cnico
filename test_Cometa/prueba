@@ -1,0 +1,8 @@
+
+
+// function esPalindromo2(str) {
+//   let punctuation = [' ', '.', ',', ';', ':', '"', "'", '(', ')', '¿', '?', '!', '¡', '-', '_', '[', ']', '/', '{', '}', '<', '>', '#', '$', '%', '=', '^', '&', '~', '*', '`'];
+//   str = str.toLowerCase().split("");
+//   str = str.filter((item) => !punctuation.includes(item));
+//   return str.join("") === str.reverse().join("");
+// }
