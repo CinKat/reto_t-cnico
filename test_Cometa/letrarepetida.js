@@ -23,12 +23,12 @@ function letraRepetida(str) {
 
 
 function letraRepetida2(str) {
-  const map = {};
+  const obj = {};
   for (let i = 0; i < str.length; i++) {  //O(n) O(n)
-    if (map[str[i]]) {
+    if (obj[str[i]]) {
       return str[i];
     } else {
-      map[str[i]] = i + 1;
+      obj[str[i]] = i + 1;
     }
   }
   return null;
