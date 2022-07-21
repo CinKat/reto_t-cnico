@@ -16,7 +16,6 @@ function esPalindromo(str) {
 
 function esPalindromo2(str) {
   str = str.toLowerCase().replace(/\W+|_/g, "");        //O(1) => Se convierte en O(n) ya que el tamaño de la cadena va variar
-  console.log(str)
   //segun como se va eliminando los extremos del texto.
   if (str.length < 2) {                                 //O(n)
     return true
